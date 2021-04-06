@@ -1,0 +1,132 @@
+@media screen and (max-width: 1350px) {
+    .shop__sidenav::before {
+        left: 20px;
+    }
+
+    .shop__sidenav::after {
+        right: -20px;
+    }
+
+    .shop__sidenav-item::before {
+        right: 263px;
+    }
+
+    .shop__sidenav-item::after {
+        right: 7px;
+    }
+
+    .shop__sidenav-composition::before {
+        width: 114%;
+    }
+
+    .shop__sidenav-composition:last-child:after {
+        width: 114%;
+    }
+
+    .shop__sidenav-subitem::before {
+        right: 230px;
+    }
+
+    .shop__sidenav-compose::before {
+        right: 263px;
+    }
+
+    .shop__sidenav-btn {
+        width: 65px;
+    }
+
+    .shop__sidenav-btn-oval {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+
+    .header .header-top,
+    .header .header-bottom {
+        font-size: 16px;
+    }
+
+    .header .header-center {
+        font-size: 17px;
+    }
+
+    .header .header-center__form-input {
+        padding-right: 0;
+        padding-bottom: 1px;
+        padding-top: 1px;
+    }
+
+    .header .header-center .logo {
+        padding-right: 120px;
+    }
+
+    .header .header-center__form-btn {
+        font-size: 14px;
+    }
+
+    .shop__main {
+        margin-left: 37%;
+        width: 57%;
+    }
+
+    .shop__sidenav {
+        width: 26%;
+    }
+
+    .shop__gridbox {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .shop__sidenav-item::before {
+        left: -32px;
+    }
+
+    .shop__sidenav-compose::before {
+        left: -6px;
+    }
+
+    .shop__sidenav-subitem::before {
+        right: 105%;
+    }
+
+    .shop__sidenav-composition::before {
+        width: 112%;
+    }
+
+    .subscribe__form-text {
+        padding-top: 30px;
+        font-size: 26px;
+    }
+
+    .subscribe input {
+        font-size: 16px;
+        width: 10%;
+    }
+
+    .subscribe__form-btn {
+        padding: 12px 52px 12px 48px;
+        font-size: 17px;
+    }
+
+    .subscribe__rent-text {
+        padding-top: 39px;
+        font-size: 26px;
+    }
+
+    .subscribe__rent-info {
+        font-size: 18px;
+        padding-bottom: 17px;
+    }
+
+    .footer__wrapper {
+        padding-top: 52px;
+        padding-bottom: 38px;
+        font-size: 16px;
+    }
+
+    .footer .logo__img {
+        width: 75%;
+    }
+}
